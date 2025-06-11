@@ -3,14 +3,7 @@
 name: CI/CD
 
 on:
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - "helm/**"
-      - "k8s/**"
-      - "README.md"
-
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
