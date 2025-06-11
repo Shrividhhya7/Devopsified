@@ -8,7 +8,7 @@ image:
   repository: 068887784876.dkr.ecr.ap-south-1.amazonaws.com/devopsfy
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: "15574491514"
 
 ingress:
   enabled: false
